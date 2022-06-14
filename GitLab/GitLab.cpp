@@ -22,5 +22,6 @@ int main()
     cout << "Hello, user, what is you name?\n";
     string Name;
     cin >> Name;
-    cout << "Hello, " << Name << "!";
+    User user(Name);
+    cout << "Hello, " << user.GetUserName() << "!";
 }
