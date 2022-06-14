@@ -3,17 +3,17 @@
 using namespace std;
 
 class User {
-    string userName;
+    string name;
 
 public:
-    User(string name) : userName(name) {}
+    User(string name) : name(name) {}
 
     string GetUserName() {
-        return userName;
+        return name;
     }
 
     string SetUserName(string newName) {
-        userName = newName;
+        name = newName;
     }
 };
 
